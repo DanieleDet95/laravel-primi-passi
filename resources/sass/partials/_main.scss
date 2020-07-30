@@ -1,7 +1,37 @@
 main{
   background: $color_back_main;
-  padding: 40px;
+  .intro{
+    padding: 40px;
+  }
   .img-jumbo{
     width: 100%;
   }
+  .container-fluid{
+    padding-top: 30px;
+  }
+  .left{
+    background: #e8ebf1;
+    color: #1b3c59;
+    padding: 30px;
+  }
+  .right{
+    background: #1b3c59;
+    color: white;
+    padding: 30px;
+  }
+  #accordionuno,
+  #accordiondue{
+    .card{
+      border: none;
+      background: inherit;
+      .card-header{
+        padding: 10px;
+      }
+    }
+    .blocco{
+      width: 90%;
+      padding-top: 20px;
+    }
+  }
+
 }

@@ -1,4 +1,11 @@
 header{
+  width: 100%;
+  nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
   a{
     color: black;
   }

@@ -11,7 +11,7 @@
           <a href="#">Lezione gratuita</a>
         </li>
         <li>
-          <a href="#">Domande frequenti</a>
+          <a href="{{ Route('faq') }}">Domande frequenti</a>
         </li>
         <li>
           <a href="{{ Route('privacy') }}">Privacy policy</a>

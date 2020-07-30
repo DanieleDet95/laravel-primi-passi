@@ -10934,6 +10934,17 @@ a.text-dark:focus {
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+}
+
+header nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
 header a {
   color: black;
 }
@@ -10954,11 +10965,97 @@ header .btn-green {
 
 main {
   background: white;
+}
+
+main .intro {
   padding: 40px;
 }
 
 main .img-jumbo {
   width: 100%;
+}
+
+main .container-fluid,
+main .container-sm,
+main .container-md,
+main .container-lg,
+main .container-xl {
+  padding-top: 30px;
+}
+
+main .left {
+  background: #e8ebf1;
+  color: #1b3c59;
+  padding: 30px;
+}
+
+main .right {
+  background: #1b3c59;
+  color: white;
+  padding: 30px;
+}
+
+main #accordionuno .card,
+main #accordiondue .card {
+  border: none;
+  background: inherit;
+}
+
+main #accordionuno .card .card-header,
+main #accordiondue .card .card-header {
+  padding: 10px;
+}
+
+main #accordionuno .blocco,
+main #accordiondue .blocco {
+  width: 90%;
+  padding-top: 20px;
+}
+
+main .container-fluid,
+main .container-sm,
+main .container-md,
+main .container-lg,
+main .container-xl {
+  position: relative;
+}
+
+main .container-fluid img,
+main .container-sm img,
+main .container-md img,
+main .container-lg img,
+main .container-xl img {
+  width: 100%;
+  top: -100px;
+  height: auto;
+}
+
+main .container-fluid .testo,
+main .container-sm .testo,
+main .container-md .testo,
+main .container-lg .testo,
+main .container-xl .testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+main .container-fluid .testo h1,
+main .container-sm .testo h1,
+main .container-md .testo h1,
+main .container-lg .testo h1,
+main .container-xl .testo h1 {
+  font-size: 80px;
+}
+
+main .container-fluid .testo p,
+main .container-sm .testo p,
+main .container-md .testo p,
+main .container-lg .testo p,
+main .container-xl .testo p {
+  font-size: 25px;
 }
 
 footer {

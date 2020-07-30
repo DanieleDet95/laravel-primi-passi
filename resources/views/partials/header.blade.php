@@ -12,7 +12,7 @@
           <a href="{{ Route('home') }}">HOME</a>
         </li>
         <li>
-          <a href="#">CORSO</a>
+          <a href="{{ Route('corso') }}">CORSO</a>
         </li>
         <li>
           <a href="#">DOPO IL CORSO</a>
