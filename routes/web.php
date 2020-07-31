@@ -21,6 +21,10 @@ Route::get('/corso', function () {
     return view('corso');
 })->name('corso');
 
+Route::get('/lezione-gratuita', function () {
+    return view('lezione');
+})->name('lezione');
+
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('privacy');

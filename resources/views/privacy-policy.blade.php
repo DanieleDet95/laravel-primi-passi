@@ -4,8 +4,12 @@
   privacy-policy
 @endsection
 
+@section('classe-main')
+  privacy
+@endsection
+
+
 @section('main')
-  <main>
     <h2>Privacy Policy</h2>
     <p>Ai sensi dell’art. 13 del Regolamento UE 2016/679 (di seguito “GDPR”),
       Boolean S.R.L., con sede legale in Piazzale Giovanni dalle Band Nere 9,
@@ -69,5 +73,4 @@
 
     <p>Per esercitare i Suoi diritti appena elencati, potrà inoltrare richiesta
       all’indirizzo e-mail ciao@boolean.careers</p>
-  </main>
 @endsection

@@ -1,10 +1,178 @@
 main{
   background: $color_back_main;
-  .intro{
-    padding: 40px;
-  }
+}
+// ------------------------------------- Main home -------------------------------------------------
+main.home{
   .img-jumbo{
     width: 100%;
+  }
+  .dati{
+    background: #1b3c59;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    h2{
+      font-weight: bold;
+    }
+  }
+  .partner{
+    color: lightgray;
+    img{
+      width: 80%;
+    }
+    img.right{
+      float: right;
+    }
+  }
+  .casa{
+    background: #e8ebf1;
+    padding: 50px 20px;
+    h2{
+      font-size: 35px;
+    }
+    p{
+      font-size: 20px;
+    }
+    li{
+      margin-bottom: 20px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .pratico{
+    background: #1b3c59;
+    color: white;
+    padding: 30px 20px;
+    text-align: right;
+    img{
+      width: 90%;
+    }
+    h2{
+      font-size: 38px;
+    }
+    p{
+      font-size: 19px;
+      margin-top: 15px
+    }
+  }
+  .placement{
+    background: #e8ebf1;
+    padding: 90px 20px;
+    h2{
+      font-size: 45px;
+    }
+    p{
+      font-size: 20px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .parlano{
+    background: #1b3c59;
+    color: white;
+    padding: 40px 20px;
+  }
+  img{
+    width: 100%;
+  }
+  .passo{
+    background: #e8ebf1;
+    padding: 50px 20px;
+    text-align: center;
+    .bottoni{
+      display: flex;
+      justify-content: center;
+      button{
+        color: white;
+        padding: 10px 40px;
+        margin: 30px;
+        border-radius: 10px;
+        &.green{
+          background: #61ce4e;
+        }
+        &.blue{
+          background: #1b3c59;
+        }
+        a{
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+// ------------------------------------- Main lezione --------------------------------------------------
+main.lezione{
+  .container-fluid{
+    position: relative;
+    img{
+      width: 100%;
+      top: -100px;
+      height: auto;
+    }
+    .testo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: black;
+      h1{
+        font-size: 70px
+      }
+      p{
+        font-size: 22px;
+      }
+    }
+  }
+  .wrapper{
+    .video{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 50px 0;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .passo{
+    background: #e8ebf1;
+    padding: 50px 20px;
+    text-align: center;
+    .bottoni{
+      display: flex;
+      justify-content: center;
+      button{
+        color: white;
+        padding: 10px 40px;
+        margin: 30px;
+        border-radius: 10px;
+        &.green{
+          background: #61ce4e;
+        }
+        &.blue{
+          background: #1b3c59;
+        }
+        a{
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+// ------------------------------------- Main faq --------------------------------------------------
+main.faq{
+
+  .intro{
+    padding: 40px;
   }
   .container-fluid{
     padding-top: 30px;
@@ -34,4 +202,30 @@ main{
     }
   }
 
+}
+
+// ----------------------------------- Main corso --------------------------------------------------
+main.corso{
+  .container-fluid{
+    position: relative;
+    padding: 0;
+    img{
+      width: 100%;
+      top: -100px;
+      height: auto;
+    }
+    .testo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: black;
+      h1{
+        font-size: 80px
+      }
+      p{
+        font-size: 25px;
+      }
+    }
+  }
 }

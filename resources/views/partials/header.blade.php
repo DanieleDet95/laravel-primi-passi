@@ -18,7 +18,7 @@
           <a href="#">DOPO IL CORSO</a>
         </li>
         <li>
-          <a href="#">LEZIONE GRATUITA</a>
+          <a href="{{ Route('lezione') }}">LEZIONE GRATUITA</a>
         </li>
         <li>
           <a href="#">ASSUMI I NOSTRI STUDENTI</a>

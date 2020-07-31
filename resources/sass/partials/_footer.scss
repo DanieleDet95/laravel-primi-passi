@@ -2,10 +2,44 @@ footer{
   background: $color_back_footer;
   color: white;
   padding: 40px;
+  img{
+    width: 35%;
+  }
+  p{
+    margin-bottom: 0;
+  }
   a{
     color: white;
+    font-size: 21px;
+    &:hover{
+      color: white;
+    }
   }
   ul{
     list-style: none;
   }
+  hr{
+    background: white;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    a:hover{
+      text-decoration: none;
+    }
+    i{
+      display: block;
+      color: white;
+      font-size: 40px;
+      margin: 30px;
+      &:hover{
+        text-decoration: none;
+        color: red;
+      }
+    }
+  }
+  p.info{
+    text-align: center;
+  }
+
 }

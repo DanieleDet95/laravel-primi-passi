@@ -10967,94 +10967,306 @@ main {
   background: white;
 }
 
-main .intro {
-  padding: 40px;
-}
-
-main .img-jumbo {
+main.home .img-jumbo {
   width: 100%;
 }
 
-main .container-fluid,
-main .container-sm,
-main .container-md,
-main .container-lg,
-main .container-xl {
-  padding-top: 30px;
-}
-
-main .left {
-  background: #e8ebf1;
-  color: #1b3c59;
-  padding: 30px;
-}
-
-main .right {
+main.home .dati {
   background: #1b3c59;
   color: white;
-  padding: 30px;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
 }
 
-main #accordionuno .card,
-main #accordiondue .card {
-  border: none;
-  background: inherit;
+main.home .dati h2 {
+  font-weight: bold;
 }
 
-main #accordionuno .card .card-header,
-main #accordiondue .card .card-header {
-  padding: 10px;
+main.home .partner {
+  color: lightgray;
 }
 
-main #accordionuno .blocco,
-main #accordiondue .blocco {
+main.home .partner img {
+  width: 80%;
+}
+
+main.home .partner img.right {
+  float: right;
+}
+
+main.home .casa {
+  background: #e8ebf1;
+  padding: 50px 20px;
+}
+
+main.home .casa h2 {
+  font-size: 35px;
+}
+
+main.home .casa p {
+  font-size: 20px;
+}
+
+main.home .casa li {
+  margin-bottom: 20px;
+}
+
+main.home .casa img {
+  width: 100%;
+}
+
+main.home .pratico {
+  background: #1b3c59;
+  color: white;
+  padding: 30px 20px;
+  text-align: right;
+}
+
+main.home .pratico img {
   width: 90%;
-  padding-top: 20px;
 }
 
-main .container-fluid,
-main .container-sm,
-main .container-md,
-main .container-lg,
-main .container-xl {
+main.home .pratico h2 {
+  font-size: 38px;
+}
+
+main.home .pratico p {
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+main.home .placement {
+  background: #e8ebf1;
+  padding: 90px 20px;
+}
+
+main.home .placement h2 {
+  font-size: 45px;
+}
+
+main.home .placement p {
+  font-size: 20px;
+}
+
+main.home .placement img {
+  width: 100%;
+}
+
+main.home .parlano {
+  background: #1b3c59;
+  color: white;
+  padding: 40px 20px;
+}
+
+main.home img {
+  width: 100%;
+}
+
+main.home .passo {
+  background: #e8ebf1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+main.home .passo .bottoni {
+  display: flex;
+  justify-content: center;
+}
+
+main.home .passo .bottoni button {
+  color: white;
+  padding: 10px 40px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+main.home .passo .bottoni button.green {
+  background: #61ce4e;
+}
+
+main.home .passo .bottoni button.blue {
+  background: #1b3c59;
+}
+
+main.home .passo .bottoni button a {
+  color: white;
+  text-decoration: none;
+}
+
+main.lezione .container-fluid,
+main.lezione .container-sm,
+main.lezione .container-md,
+main.lezione .container-lg,
+main.lezione .container-xl {
   position: relative;
 }
 
-main .container-fluid img,
-main .container-sm img,
-main .container-md img,
-main .container-lg img,
-main .container-xl img {
+main.lezione .container-fluid img,
+main.lezione .container-sm img,
+main.lezione .container-md img,
+main.lezione .container-lg img,
+main.lezione .container-xl img {
   width: 100%;
   top: -100px;
   height: auto;
 }
 
-main .container-fluid .testo,
-main .container-sm .testo,
-main .container-md .testo,
-main .container-lg .testo,
-main .container-xl .testo {
+main.lezione .container-fluid .testo,
+main.lezione .container-sm .testo,
+main.lezione .container-md .testo,
+main.lezione .container-lg .testo,
+main.lezione .container-xl .testo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
 }
 
-main .container-fluid .testo h1,
-main .container-sm .testo h1,
-main .container-md .testo h1,
-main .container-lg .testo h1,
-main .container-xl .testo h1 {
+main.lezione .container-fluid .testo h1,
+main.lezione .container-sm .testo h1,
+main.lezione .container-md .testo h1,
+main.lezione .container-lg .testo h1,
+main.lezione .container-xl .testo h1 {
+  font-size: 70px;
+}
+
+main.lezione .container-fluid .testo p,
+main.lezione .container-sm .testo p,
+main.lezione .container-md .testo p,
+main.lezione .container-lg .testo p,
+main.lezione .container-xl .testo p {
+  font-size: 22px;
+}
+
+main.lezione .wrapper .video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+main.lezione .wrapper .video img {
+  width: 100%;
+}
+
+main.lezione .passo {
+  background: #e8ebf1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+main.lezione .passo .bottoni {
+  display: flex;
+  justify-content: center;
+}
+
+main.lezione .passo .bottoni button {
+  color: white;
+  padding: 10px 40px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+main.lezione .passo .bottoni button.green {
+  background: #61ce4e;
+}
+
+main.lezione .passo .bottoni button.blue {
+  background: #1b3c59;
+}
+
+main.lezione .passo .bottoni button a {
+  color: white;
+  text-decoration: none;
+}
+
+main.faq .intro {
+  padding: 40px;
+}
+
+main.faq .container-fluid,
+main.faq .container-sm,
+main.faq .container-md,
+main.faq .container-lg,
+main.faq .container-xl {
+  padding-top: 30px;
+}
+
+main.faq .left {
+  background: #e8ebf1;
+  color: #1b3c59;
+  padding: 30px;
+}
+
+main.faq .right {
+  background: #1b3c59;
+  color: white;
+  padding: 30px;
+}
+
+main.faq #accordionuno .card,
+main.faq #accordiondue .card {
+  border: none;
+  background: inherit;
+}
+
+main.faq #accordionuno .card .card-header,
+main.faq #accordiondue .card .card-header {
+  padding: 10px;
+}
+
+main.faq #accordionuno .blocco,
+main.faq #accordiondue .blocco {
+  width: 90%;
+  padding-top: 20px;
+}
+
+main.corso .container-fluid,
+main.corso .container-sm,
+main.corso .container-md,
+main.corso .container-lg,
+main.corso .container-xl {
+  position: relative;
+  padding: 0;
+}
+
+main.corso .container-fluid img,
+main.corso .container-sm img,
+main.corso .container-md img,
+main.corso .container-lg img,
+main.corso .container-xl img {
+  width: 100%;
+  top: -100px;
+  height: auto;
+}
+
+main.corso .container-fluid .testo,
+main.corso .container-sm .testo,
+main.corso .container-md .testo,
+main.corso .container-lg .testo,
+main.corso .container-xl .testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+main.corso .container-fluid .testo h1,
+main.corso .container-sm .testo h1,
+main.corso .container-md .testo h1,
+main.corso .container-lg .testo h1,
+main.corso .container-xl .testo h1 {
   font-size: 80px;
 }
 
-main .container-fluid .testo p,
-main .container-sm .testo p,
-main .container-md .testo p,
-main .container-lg .testo p,
-main .container-xl .testo p {
+main.corso .container-fluid .testo p,
+main.corso .container-sm .testo p,
+main.corso .container-md .testo p,
+main.corso .container-lg .testo p,
+main.corso .container-xl .testo p {
   font-size: 25px;
 }
 
@@ -11064,11 +11276,53 @@ footer {
   padding: 40px;
 }
 
+footer img {
+  width: 35%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
 footer a {
+  color: white;
+  font-size: 21px;
+}
+
+footer a:hover {
   color: white;
 }
 
 footer ul {
   list-style: none;
+}
+
+footer hr {
+  background: white;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: center;
+}
+
+footer .flex a:hover {
+  text-decoration: none;
+}
+
+footer .flex i {
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin: 30px;
+}
+
+footer .flex i:hover {
+  text-decoration: none;
+  color: red;
+}
+
+footer p.info {
+  text-align: center;
 }
 
